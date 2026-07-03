@@ -1,16 +1,16 @@
 {
   "baseline_status": "cold_start",
-  "generated": "2026-07-03T07:26:20Z",
+  "generated": "2026-07-03T08:42:43Z",
   "run": {
-    "items_tagged": 193,
+    "items_tagged": 7,
     "modules": {
-      "appstore": "off",
-      "bluesky": "off",
+      "appstore": "ok",
+      "bluesky": "failed",
       "hn": "ok",
-      "reddit": "off",
-      "youtube": "off"
+      "reddit": "disabled",
+      "youtube": "failed"
     },
-    "tagging_mode": "standard"
+    "tagging_mode": "batch"
   },
   "trends": [],
   "window_days": 7
