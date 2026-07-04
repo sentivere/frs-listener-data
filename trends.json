@@ -1,17 +1,147 @@
 {
   "baseline_status": "cold_start",
-  "generated": "2026-07-04T07:26:03Z",
+  "generated": "2026-07-04T19:03:28Z",
   "run": {
-    "items_tagged": 63,
+    "items_tagged": 780,
     "modules": {
       "appstore": "ok",
-      "bluesky": "failed",
+      "bluesky": "ok",
       "hn": "ok",
-      "reddit": "failed",
-      "youtube": "failed"
+      "reddit": "off",
+      "youtube": "ok"
     },
     "tagging_mode": "batch"
   },
-  "trends": [],
+  "trends": [
+    {
+      "capacity_state": "empty",
+      "context_sample": "Someone depleted from work who lacks energy for personal projects even after time off.",
+      "delta_vs_prior": 18.0,
+      "first_seen": "2026-07-03",
+      "frequency_7d": 17,
+      "objection": false,
+      "phrase": "burned out",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/burned out",
+        "bluesky/no direction",
+        "hn/lost motivation",
+        "youtube/melrobbins"
+      ],
+      "trending_score": 0.27
+    },
+    {
+      "capacity_state": "empty",
+      "context_sample": "A character description of someone reverting to defensive survival mechanisms when stressed or uncertain.",
+      "delta_vs_prior": 14.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 13,
+      "objection": false,
+      "phrase": "survival mode",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/survival mode"
+      ],
+      "trending_score": 0.195
+    },
+    {
+      "capacity_state": "flat",
+      "context_sample": "Someone describing performative political rhetoric as rote repetition without substance for different audiences.",
+      "delta_vs_prior": 11.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 10,
+      "objection": false,
+      "phrase": "going through the motions",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/going through the motions"
+      ],
+      "trending_score": 0.15
+    },
+    {
+      "capacity_state": "empty",
+      "context_sample": "Someone depleted by life found temporary restoration through a sci-fi story that resonated emotionally.",
+      "delta_vs_prior": 7.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 6,
+      "objection": false,
+      "phrase": "running on empty",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/running on empty"
+      ],
+      "trending_score": 0.09
+    },
+    {
+      "capacity_state": "flat",
+      "context_sample": "A person describing uncertainty about how to deepen their religious practice within their tradition.",
+      "delta_vs_prior": 6.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 5,
+      "objection": false,
+      "phrase": "feel stuck",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/feel stuck"
+      ],
+      "trending_score": 0.075
+    },
+    {
+      "capacity_state": "flat",
+      "context_sample": "A person in an unpleasant environment describing survival as a choice between bad options.",
+      "delta_vs_prior": 5.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 4,
+      "objection": false,
+      "phrase": "just existing",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/just existing"
+      ],
+      "trending_score": 0.06
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "A philosophical question about distinguishing between healthy persistence and harmful rigidity.",
+      "delta_vs_prior": 4.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "stuck",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/feel stuck"
+      ],
+      "trending_score": 0.045
+    },
+    {
+      "capacity_state": "empty",
+      "context_sample": "Someone describing burnout from engaging with a favorite artist's work over time.",
+      "delta_vs_prior": 4.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "burned myself out",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/burned out"
+      ],
+      "trending_score": 0.045
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "A report on severe infrastructure damage to industrial pipeline and storage systems.",
+      "delta_vs_prior": 4.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "completely burned out",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/burned out"
+      ],
+      "trending_score": 0.045
+    }
+  ],
   "window_days": 7
 }
