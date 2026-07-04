@@ -1,13 +1,13 @@
 {
   "baseline_status": "cold_start",
-  "generated": "2026-07-03T08:42:43Z",
+  "generated": "2026-07-04T07:26:03Z",
   "run": {
-    "items_tagged": 7,
+    "items_tagged": 63,
     "modules": {
       "appstore": "ok",
       "bluesky": "failed",
       "hn": "ok",
-      "reddit": "disabled",
+      "reddit": "failed",
       "youtube": "failed"
     },
     "tagging_mode": "batch"
