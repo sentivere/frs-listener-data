@@ -1,8 +1,8 @@
 {
   "baseline_status": "cold_start",
-  "generated": "2026-07-04T19:03:28Z",
+  "generated": "2026-07-05T07:45:43Z",
   "run": {
-    "items_tagged": 780,
+    "items_tagged": 318,
     "modules": {
       "appstore": "ok",
       "bluesky": "ok",
@@ -15,10 +15,10 @@
   "trends": [
     {
       "capacity_state": "empty",
-      "context_sample": "Someone depleted from work who lacks energy for personal projects even after time off.",
-      "delta_vs_prior": 18.0,
+      "context_sample": "Someone expressing concern about systemic healthcare failures and physician exhaustion.",
+      "delta_vs_prior": 21.0,
       "first_seen": "2026-07-03",
-      "frequency_7d": 17,
+      "frequency_7d": 20,
       "objection": false,
       "phrase": "burned out",
       "product_relevance": "reset",
@@ -28,89 +28,118 @@
         "hn/lost motivation",
         "youtube/melrobbins"
       ],
-      "trending_score": 0.27
-    },
-    {
-      "capacity_state": "empty",
-      "context_sample": "A character description of someone reverting to defensive survival mechanisms when stressed or uncertain.",
-      "delta_vs_prior": 14.0,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 13,
-      "objection": false,
-      "phrase": "survival mode",
-      "product_relevance": "reset",
-      "sources": [
-        "bluesky/survival mode"
-      ],
-      "trending_score": 0.195
+      "trending_score": 0.315
     },
     {
       "capacity_state": "flat",
-      "context_sample": "Someone describing performative political rhetoric as rote repetition without substance for different audiences.",
-      "delta_vs_prior": 11.0,
+      "context_sample": "Someone describing a hobby they theoretically enjoy but find tedious to actually practice daily.",
+      "delta_vs_prior": 15.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 10,
+      "frequency_7d": 14,
       "objection": false,
       "phrase": "going through the motions",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/going through the motions"
       ],
-      "trending_score": 0.15
+      "trending_score": 0.21
     },
     {
       "capacity_state": "empty",
-      "context_sample": "Someone depleted by life found temporary restoration through a sci-fi story that resonated emotionally.",
-      "delta_vs_prior": 7.0,
+      "context_sample": "Someone describing loss of creative passion due to being in survival mode rather than pursuing meaningful work.",
+      "delta_vs_prior": 15.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 6,
+      "frequency_7d": 14,
       "objection": false,
-      "phrase": "running on empty",
+      "phrase": "survival mode",
       "product_relevance": "reset",
       "sources": [
-        "bluesky/running on empty"
+        "bluesky/survival mode"
       ],
-      "trending_score": 0.09
+      "trending_score": 0.21
     },
     {
-      "capacity_state": "flat",
-      "context_sample": "A person describing uncertainty about how to deepen their religious practice within their tradition.",
-      "delta_vs_prior": 6.0,
+      "capacity_state": "ambiguous",
+      "context_sample": "A brief statement of confusion or discomfort in response to an explanation.",
+      "delta_vs_prior": 8.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 5,
+      "frequency_7d": 7,
       "objection": false,
       "phrase": "feel stuck",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/feel stuck"
       ],
-      "trending_score": 0.075
+      "trending_score": 0.105
     },
     {
       "capacity_state": "flat",
-      "context_sample": "A person in an unpleasant environment describing survival as a choice between bad options.",
-      "delta_vs_prior": 5.0,
+      "context_sample": "Someone describing incremental progress in feeling accepted in a space where they face systemic barriers.",
+      "delta_vs_prior": 8.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 4,
+      "frequency_7d": 7,
       "objection": false,
       "phrase": "just existing",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/just existing"
       ],
+      "trending_score": 0.105
+    },
+    {
+      "capacity_state": "empty",
+      "context_sample": "Someone in financial and emotional depletion requesting mutual aid for basic travel and living expenses.",
+      "delta_vs_prior": 8.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 7,
+      "objection": false,
+      "phrase": "running on empty",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/running on empty"
+      ],
+      "trending_score": 0.105
+    },
+    {
+      "capacity_state": "flat",
+      "context_sample": "A person asserting that American institutions are irredeemably corrupt and proposing an alternative foundational model.",
+      "delta_vs_prior": 8.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 7,
+      "objection": false,
+      "phrase": "start over",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/start over"
+      ],
+      "trending_score": 0.105
+    },
+    {
+      "capacity_state": "flat",
+      "context_sample": "An observation that professional athletes often lack purpose and preparation for life after their sport ends.",
+      "delta_vs_prior": 5.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 4,
+      "objection": false,
+      "phrase": "no direction",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/burned out",
+        "bluesky/no direction"
+      ],
       "trending_score": 0.06
     },
     {
-      "capacity_state": "ambiguous",
-      "context_sample": "A philosophical question about distinguishing between healthy persistence and harmful rigidity.",
+      "capacity_state": "empty",
+      "context_sample": "A person returning to a creative project with learned boundaries after a previous overcommitment caused burnout.",
       "delta_vs_prior": 4.0,
       "first_seen": "2026-07-04",
       "frequency_7d": 3,
       "objection": false,
-      "phrase": "stuck",
-      "product_relevance": "ignition",
+      "phrase": "burned me out",
+      "product_relevance": "reset",
       "sources": [
-        "bluesky/feel stuck"
+        "bluesky/burned out"
       ],
       "trending_score": 0.045
     },
@@ -136,6 +165,34 @@
       "frequency_7d": 3,
       "objection": false,
       "phrase": "completely burned out",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/burned out"
+      ],
+      "trending_score": 0.045
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "A philosophical question about distinguishing between healthy persistence and harmful rigidity.",
+      "delta_vs_prior": 4.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "stuck",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/feel stuck"
+      ],
+      "trending_score": 0.045
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "A sports headline about a player's damaged professional relationships.",
+      "delta_vs_prior": 4.0,
+      "first_seen": "2026-07-05",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "burned bridges",
       "product_relevance": "unclear",
       "sources": [
         "bluesky/burned out"
