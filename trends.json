@@ -1,8 +1,8 @@
 {
   "baseline_status": "cold_start",
-  "generated": "2026-07-06T08:48:31Z",
+  "generated": "2026-07-07T08:01:21Z",
   "run": {
-    "items_tagged": 542,
+    "items_tagged": 705,
     "modules": {
       "appstore": "ok",
       "bluesky": "ok",
@@ -15,10 +15,10 @@
   "trends": [
     {
       "capacity_state": "empty",
-      "context_sample": "A person recounting past severe work stress and how meditation became necessary for basic functioning.",
-      "delta_vs_prior": 31.0,
+      "context_sample": "A filmmaker describing a solo-created silent film as a creative expression of exhaustion and overwhelm.",
+      "delta_vs_prior": 40.0,
       "first_seen": "2026-07-03",
-      "frequency_7d": 30,
+      "frequency_7d": 39,
       "objection": false,
       "phrase": "burned out",
       "product_relevance": "reset",
@@ -29,98 +29,84 @@
         "hn/lost motivation",
         "youtube/melrobbins"
       ],
-      "trending_score": 0.47
+      "trending_score": 0.605
     },
     {
       "capacity_state": "flat",
-      "context_sample": "An observation about distinguishing genuine enjoyment from performative participation.",
-      "delta_vs_prior": 23.0,
+      "context_sample": "A person describing a difficult day where they are functioning on autopilot.",
+      "delta_vs_prior": 26.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 22,
+      "frequency_7d": 25,
       "objection": false,
       "phrase": "going through the motions",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/going through the motions"
       ],
-      "trending_score": 0.33
+      "trending_score": 0.375
     },
     {
       "capacity_state": "empty",
-      "context_sample": "Question about what helps adults transition from mere survival and task completion to feeling genuinely alive.",
-      "delta_vs_prior": 17.0,
+      "context_sample": "A commentary on founder compensation structures, arguing that low salary without equity represents unsustainable sacrifice.",
+      "delta_vs_prior": 20.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 16,
-      "objection": false,
-      "phrase": "survival mode",
-      "product_relevance": "reset",
-      "sources": [
-        "bluesky/survival mode"
-      ],
-      "trending_score": 0.24
-    },
-    {
-      "capacity_state": "empty",
-      "context_sample": "A person describing social exhaustion from family events and depleted energy reserves.",
-      "delta_vs_prior": 15.0,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 14,
+      "frequency_7d": 19,
       "objection": false,
       "phrase": "running on empty",
       "product_relevance": "reset",
       "sources": [
         "bluesky/running on empty"
       ],
-      "trending_score": 0.21
+      "trending_score": 0.285
     },
     {
-      "capacity_state": "flat",
-      "context_sample": "Someone struggling to accept something and unable to move forward despite knowing they need to.",
-      "delta_vs_prior": 10.0,
+      "capacity_state": "empty",
+      "context_sample": "Commentary on a media company's operational pressures in a changing industry landscape.",
+      "delta_vs_prior": 20.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 9,
+      "frequency_7d": 19,
+      "objection": false,
+      "phrase": "survival mode",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/survival mode"
+      ],
+      "trending_score": 0.285
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "An artist experiencing a difficult creative period where external forces feel oppositional and they lack direction.",
+      "delta_vs_prior": 12.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 11,
       "objection": false,
       "phrase": "feel stuck",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/feel stuck"
       ],
-      "trending_score": 0.135
+      "trending_score": 0.165
     },
     {
       "capacity_state": "flat",
-      "context_sample": "Someone describing incremental progress in feeling accepted in a space where they face systemic barriers.",
-      "delta_vs_prior": 8.0,
+      "context_sample": "Someone describing the difficulty of maintaining presence and humanity against constant digital distraction.",
+      "delta_vs_prior": 12.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 7,
+      "frequency_7d": 11,
       "objection": false,
       "phrase": "just existing",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/just existing"
       ],
-      "trending_score": 0.105
+      "trending_score": 0.165
     },
     {
       "capacity_state": "flat",
-      "context_sample": "A person asserting that American institutions are irredeemably corrupt and proposing an alternative foundational model.",
-      "delta_vs_prior": 8.0,
+      "context_sample": "A critique of how a game's soundtrack is implemented, noting songs lack intentional placement or purpose.",
+      "delta_vs_prior": 12.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 7,
-      "objection": false,
-      "phrase": "start over",
-      "product_relevance": "ignition",
-      "sources": [
-        "bluesky/start over"
-      ],
-      "trending_score": 0.105
-    },
-    {
-      "capacity_state": "flat",
-      "context_sample": "A critique of acting performances and directorial choices in an early film that affected audience reception of sequels.",
-      "delta_vs_prior": 6.0,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 5,
+      "frequency_7d": 11,
       "objection": false,
       "phrase": "no direction",
       "product_relevance": "ignition",
@@ -128,21 +114,63 @@
         "bluesky/burned out",
         "bluesky/no direction"
       ],
+      "trending_score": 0.165
+    },
+    {
+      "capacity_state": "flat",
+      "context_sample": "An artist expressing dissatisfaction with their current work and feeling creatively depleted.",
+      "delta_vs_prior": 9.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 8,
+      "objection": false,
+      "phrase": "just going through the motions",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/going through the motions"
+      ],
+      "trending_score": 0.12
+    },
+    {
+      "capacity_state": "flat",
+      "context_sample": "Song lyrics expressing desire for reinvention and freedom from past mistakes.",
+      "delta_vs_prior": 9.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 8,
+      "objection": false,
+      "phrase": "start over",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/start over"
+      ],
+      "trending_score": 0.12
+    },
+    {
+      "capacity_state": "empty",
+      "context_sample": "A person describing platform-related depletion that has reduced their social media engagement.",
+      "delta_vs_prior": 6.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 5,
+      "objection": false,
+      "phrase": "burned me out",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/burned out"
+      ],
       "trending_score": 0.075
     },
     {
       "capacity_state": "ambiguous",
-      "context_sample": "Someone describing loss of engagement with social media audiences over time.",
-      "delta_vs_prior": 5.0,
+      "context_sample": "A gamer expressing concern about mechanical skill while preferring story-driven experiences and asking for help if needed.",
+      "delta_vs_prior": 6.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 4,
+      "frequency_7d": 5,
       "objection": false,
-      "phrase": "burned me out",
-      "product_relevance": "unclear",
+      "phrase": "stuck",
+      "product_relevance": "ignition",
       "sources": [
-        "bluesky/burned out"
+        "bluesky/feel stuck"
       ],
-      "trending_score": 0.06
+      "trending_score": 0.075
     },
     {
       "capacity_state": "ambiguous",
@@ -160,6 +188,20 @@
     },
     {
       "capacity_state": "ready",
+      "context_sample": "Someone in distress seeking external validation while recognizing their struggle is neurological rather than existential.",
+      "delta_vs_prior": 5.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 4,
+      "objection": false,
+      "phrase": "feel so stuck",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/feel stuck"
+      ],
+      "trending_score": 0.06
+    },
+    {
+      "capacity_state": "ready",
       "context_sample": "Someone describing a technical painting process where precision prevents rework.",
       "delta_vs_prior": 5.0,
       "first_seen": "2026-07-05",
@@ -169,20 +211,6 @@
       "product_relevance": "ignition",
       "sources": [
         "bluesky/start over"
-      ],
-      "trending_score": 0.06
-    },
-    {
-      "capacity_state": "ambiguous",
-      "context_sample": "A reference to a student's constraint within an academic assignment deadline.",
-      "delta_vs_prior": 5.0,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 4,
-      "objection": false,
-      "phrase": "stuck",
-      "product_relevance": "unclear",
-      "sources": [
-        "bluesky/feel stuck"
       ],
       "trending_score": 0.06
     },
@@ -213,6 +241,21 @@
       "sources": [
         "bluesky/burned out",
         "hn/burned out"
+      ],
+      "trending_score": 0.05
+    },
+    {
+      "capacity_state": "flat",
+      "context_sample": "A philosophical observation that societies operate within local value systems they cannot easily escape or question.",
+      "delta_vs_prior": 4.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "stuck in",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/feel stuck",
+        "hn/stuck"
       ],
       "trending_score": 0.05
     },
@@ -259,6 +302,34 @@
       "trending_score": 0.045
     },
     {
+      "capacity_state": "ambiguous",
+      "context_sample": "Someone expressing guilt and helplessness about having created or perpetuated suffering for another person through their existence.",
+      "delta_vs_prior": 4.0,
+      "first_seen": "2026-07-05",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "just by existing",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/just existing"
+      ],
+      "trending_score": 0.045
+    },
+    {
+      "capacity_state": "flat",
+      "context_sample": "A sports commentary describing organizational dysfunction and lack of strategic vision in a franchise.",
+      "delta_vs_prior": 4.0,
+      "first_seen": "2026-07-06",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "no clear direction",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/no direction"
+      ],
+      "trending_score": 0.045
+    },
+    {
       "capacity_state": "empty",
       "context_sample": "Advice to avoid people with rigid life-stage expectations, framed as toxic.",
       "delta_vs_prior": 4.0,
@@ -269,6 +340,20 @@
       "product_relevance": "reset",
       "sources": [
         "bluesky/survival mode"
+      ],
+      "trending_score": 0.045
+    },
+    {
+      "capacity_state": "flat",
+      "context_sample": "A sports commentary describing a team's disorganized play and lack of coherent strategy.",
+      "delta_vs_prior": 4.0,
+      "first_seen": "2026-07-07",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "pure chaos",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/no direction"
       ],
       "trending_score": 0.045
     }
