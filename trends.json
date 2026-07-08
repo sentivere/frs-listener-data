@@ -1,8 +1,8 @@
 {
   "baseline_status": "cold_start",
-  "generated": "2026-07-07T08:01:21Z",
+  "generated": "2026-07-08T07:11:27Z",
   "run": {
-    "items_tagged": 705,
+    "items_tagged": 686,
     "modules": {
       "appstore": "ok",
       "bluesky": "ok",
@@ -10,15 +10,15 @@
       "reddit": "off",
       "youtube": "ok"
     },
-    "tagging_mode": "standard"
+    "tagging_mode": "batch"
   },
   "trends": [
     {
       "capacity_state": "empty",
-      "context_sample": "A filmmaker describing a solo-created silent film as a creative expression of exhaustion and overwhelm.",
-      "delta_vs_prior": 40.0,
+      "context_sample": "Someone describing how long-term disengagement from a game now triggers negative feelings upon seeing it.",
+      "delta_vs_prior": 45.0,
       "first_seen": "2026-07-03",
-      "frequency_7d": 39,
+      "frequency_7d": 44,
       "objection": false,
       "phrase": "burned out",
       "product_relevance": "reset",
@@ -29,35 +29,35 @@
         "hn/lost motivation",
         "youtube/melrobbins"
       ],
-      "trending_score": 0.605
+      "trending_score": 0.618
     },
     {
       "capacity_state": "flat",
-      "context_sample": "A person describing a difficult day where they are functioning on autopilot.",
-      "delta_vs_prior": 26.0,
+      "context_sample": "A person described as performing required actions without agency or genuine participation.",
+      "delta_vs_prior": 33.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 25,
+      "frequency_7d": 32,
       "objection": false,
       "phrase": "going through the motions",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/going through the motions"
       ],
-      "trending_score": 0.375
+      "trending_score": 0.48
     },
     {
       "capacity_state": "empty",
-      "context_sample": "A commentary on founder compensation structures, arguing that low salary without equity represents unsustainable sacrifice.",
-      "delta_vs_prior": 20.0,
+      "context_sample": "A marketing post offering two nervous system states and positioning homeopathy as a solution to adrenal fatigue.",
+      "delta_vs_prior": 21.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 19,
+      "frequency_7d": 20,
       "objection": false,
       "phrase": "running on empty",
       "product_relevance": "reset",
       "sources": [
         "bluesky/running on empty"
       ],
-      "trending_score": 0.285
+      "trending_score": 0.3
     },
     {
       "capacity_state": "empty",
@@ -75,38 +75,38 @@
     },
     {
       "capacity_state": "ambiguous",
-      "context_sample": "An artist experiencing a difficult creative period where external forces feel oppositional and they lack direction.",
-      "delta_vs_prior": 12.0,
+      "context_sample": "A person describing home as a place where they feel trapped and unable to access their better self.",
+      "delta_vs_prior": 15.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 11,
+      "frequency_7d": 14,
       "objection": false,
       "phrase": "feel stuck",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/feel stuck"
       ],
-      "trending_score": 0.165
+      "trending_score": 0.21
     },
     {
       "capacity_state": "flat",
-      "context_sample": "Someone describing the difficulty of maintaining presence and humanity against constant digital distraction.",
-      "delta_vs_prior": 12.0,
+      "context_sample": "A person in a passive, undirected state on a day off, neither engaged nor depleted.",
+      "delta_vs_prior": 15.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 11,
+      "frequency_7d": 14,
       "objection": false,
       "phrase": "just existing",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/just existing"
       ],
-      "trending_score": 0.165
+      "trending_score": 0.21
     },
     {
       "capacity_state": "flat",
-      "context_sample": "A critique of how a game's soundtrack is implemented, noting songs lack intentional placement or purpose.",
-      "delta_vs_prior": 12.0,
+      "context_sample": "Someone commenting that a product works adequately but lacks clear guidance or purpose.",
+      "delta_vs_prior": 14.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 11,
+      "frequency_7d": 13,
       "objection": false,
       "phrase": "no direction",
       "product_relevance": "ignition",
@@ -114,7 +114,7 @@
         "bluesky/burned out",
         "bluesky/no direction"
       ],
-      "trending_score": 0.165
+      "trending_score": 0.195
     },
     {
       "capacity_state": "flat",
@@ -146,31 +146,118 @@
     },
     {
       "capacity_state": "empty",
-      "context_sample": "A person describing platform-related depletion that has reduced their social media engagement.",
-      "delta_vs_prior": 6.0,
+      "context_sample": "Someone rejecting a gacha game after trying it and experiencing severe fatigue from its mechanics.",
+      "delta_vs_prior": 8.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 5,
+      "frequency_7d": 7,
       "objection": false,
       "phrase": "burned me out",
       "product_relevance": "reset",
       "sources": [
         "bluesky/burned out"
       ],
-      "trending_score": 0.075
+      "trending_score": 0.105
     },
     {
-      "capacity_state": "ambiguous",
-      "context_sample": "A gamer expressing concern about mechanical skill while preferring story-driven experiences and asking for help if needed.",
-      "delta_vs_prior": 6.0,
+      "capacity_state": "ready",
+      "context_sample": "An artist comparing themselves unfavorably to peers and expressing frustration at inability to access creative motivation.",
+      "delta_vs_prior": 8.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 5,
+      "frequency_7d": 7,
       "objection": false,
       "phrase": "stuck",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/feel stuck"
       ],
+      "trending_score": 0.105
+    },
+    {
+      "capacity_state": "ready",
+      "context_sample": "Someone explaining the cascading technical constraints of game development architecture.",
+      "delta_vs_prior": 6.0,
+      "first_seen": "2026-07-05",
+      "frequency_7d": 5,
+      "objection": false,
+      "phrase": "have to start over",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/start over"
+      ],
       "trending_score": 0.075
+    },
+    {
+      "capacity_state": "flat",
+      "context_sample": "A critic accusing a political party of lacking coherent strategy and offering hollow rhetoric while failing to address public safety concerns.",
+      "delta_vs_prior": 6.0,
+      "first_seen": "2026-07-06",
+      "frequency_7d": 5,
+      "objection": false,
+      "phrase": "no clear direction",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/no direction"
+      ],
+      "trending_score": 0.075
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "A comic book critic comparing 1990s event storylines and noting that one narrative arc lacked coherent purpose despite individual strong moments.",
+      "delta_vs_prior": 6.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 5,
+      "objection": false,
+      "phrase": "no sense of direction",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/no direction"
+      ],
+      "trending_score": 0.075
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "A music recommendation post noting a song is memorable and induces mild drowsiness.",
+      "delta_vs_prior": 6.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 5,
+      "objection": false,
+      "phrase": "stuck in my head",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/feel stuck",
+        "bluesky/survival mode"
+      ],
+      "trending_score": 0.075
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "A user describing repeated technical friction when attempting to access a service through a third-party platform.",
+      "delta_vs_prior": 5.0,
+      "first_seen": "2026-07-08",
+      "frequency_7d": 4,
+      "objection": false,
+      "phrase": "stuck in a loop",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/feel stuck",
+        "hn/stuck"
+      ],
+      "trending_score": 0.075
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "A personal memory of visiting a large-scale facility and the lasting impression created by the experience.",
+      "delta_vs_prior": 5.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 4,
+      "objection": false,
+      "phrase": "stuck with me",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/feel stuck",
+        "hn/stuck"
+      ],
+      "trending_score": 0.065
     },
     {
       "capacity_state": "ambiguous",
@@ -180,6 +267,20 @@
       "frequency_7d": 4,
       "objection": false,
       "phrase": "burned myself out",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/burned out"
+      ],
+      "trending_score": 0.06
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "Someone expressing total depletion on their final workday before vacation.",
+      "delta_vs_prior": 5.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 4,
+      "objection": false,
+      "phrase": "completely burned out",
       "product_relevance": "unclear",
       "sources": [
         "bluesky/burned out"
@@ -197,35 +298,6 @@
       "product_relevance": "ignition",
       "sources": [
         "bluesky/feel stuck"
-      ],
-      "trending_score": 0.06
-    },
-    {
-      "capacity_state": "ready",
-      "context_sample": "Someone describing a technical painting process where precision prevents rework.",
-      "delta_vs_prior": 5.0,
-      "first_seen": "2026-07-05",
-      "frequency_7d": 4,
-      "objection": false,
-      "phrase": "have to start over",
-      "product_relevance": "ignition",
-      "sources": [
-        "bluesky/start over"
-      ],
-      "trending_score": 0.06
-    },
-    {
-      "capacity_state": "ambiguous",
-      "context_sample": "A brief note about a specific musical passage that has remained memorable.",
-      "delta_vs_prior": 5.0,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 4,
-      "objection": false,
-      "phrase": "stuck in my head",
-      "product_relevance": "unclear",
-      "sources": [
-        "bluesky/feel stuck",
-        "bluesky/survival mode"
       ],
       "trending_score": 0.06
     },
@@ -274,20 +346,6 @@
       "trending_score": 0.045
     },
     {
-      "capacity_state": "ambiguous",
-      "context_sample": "A report on severe infrastructure damage to industrial pipeline and storage systems.",
-      "delta_vs_prior": 4.0,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 3,
-      "objection": false,
-      "phrase": "completely burned out",
-      "product_relevance": "unclear",
-      "sources": [
-        "bluesky/burned out"
-      ],
-      "trending_score": 0.045
-    },
-    {
       "capacity_state": "ready",
       "context_sample": "Someone rejecting a relationship restart and criticizing a partner's settling behavior.",
       "delta_vs_prior": 4.0,
@@ -317,12 +375,12 @@
     },
     {
       "capacity_state": "flat",
-      "context_sample": "A sports commentary describing organizational dysfunction and lack of strategic vision in a franchise.",
+      "context_sample": "A sports commentary describing a team's disorganized play and lack of coherent strategy.",
       "delta_vs_prior": 4.0,
-      "first_seen": "2026-07-06",
+      "first_seen": "2026-07-07",
       "frequency_7d": 3,
       "objection": false,
-      "phrase": "no clear direction",
+      "phrase": "pure chaos",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/no direction"
@@ -340,20 +398,6 @@
       "product_relevance": "reset",
       "sources": [
         "bluesky/survival mode"
-      ],
-      "trending_score": 0.045
-    },
-    {
-      "capacity_state": "flat",
-      "context_sample": "A sports commentary describing a team's disorganized play and lack of coherent strategy.",
-      "delta_vs_prior": 4.0,
-      "first_seen": "2026-07-07",
-      "frequency_7d": 3,
-      "objection": false,
-      "phrase": "pure chaos",
-      "product_relevance": "ignition",
-      "sources": [
-        "bluesky/no direction"
       ],
       "trending_score": 0.045
     }
