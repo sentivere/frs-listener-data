@@ -1,24 +1,24 @@
 {
   "baseline_status": "cold_start",
-  "generated": "2026-07-16T07:06:25Z",
+  "generated": "2026-07-17T07:00:46Z",
   "run": {
-    "items_tagged": 733,
+    "items_tagged": 114,
     "modules": {
       "appstore": "ok",
-      "bluesky": "ok",
+      "bluesky": "failed",
       "hn": "ok",
       "reddit": "off",
       "youtube": "ok"
     },
-    "tagging_mode": "batch"
+    "tagging_mode": "standard"
   },
   "trends": [
     {
       "capacity_state": "empty",
       "context_sample": "A discussion of engine reliability issues with high-compression turbocharged small-displacement engines.",
-      "delta_vs_prior": 5.681,
+      "delta_vs_prior": 2.746,
       "first_seen": "2026-07-03",
-      "frequency_7d": 88,
+      "frequency_7d": 64,
       "objection": false,
       "phrase": "burned out",
       "product_relevance": "reset",
@@ -34,9 +34,9 @@
     {
       "capacity_state": "flat",
       "context_sample": "A skeptical comment about the appearance of fairness in a predetermined decision.",
-      "delta_vs_prior": 4.886,
+      "delta_vs_prior": 3.9,
       "first_seen": "2026-07-04",
-      "frequency_7d": 56,
+      "frequency_7d": 51,
       "objection": false,
       "phrase": "going through the motions",
       "product_relevance": "ignition",
@@ -49,9 +49,9 @@
     {
       "capacity_state": "empty",
       "context_sample": "A news headline about economic pressure forcing families to sell homes in a specific city.",
-      "delta_vs_prior": 5.182,
+      "delta_vs_prior": 3.207,
       "first_seen": "2026-07-04",
-      "frequency_7d": 37,
+      "frequency_7d": 30,
       "objection": false,
       "phrase": "survival mode",
       "product_relevance": "reset",
@@ -60,14 +60,14 @@
         "bluesky/survival mode",
         "youtube/lavendaire"
       ],
-      "trending_score": 0.565
+      "trending_score": 0.46
     },
     {
       "capacity_state": "ambiguous",
       "context_sample": "Someone admiring another's efficiency and describing how they overcome their own execution blocks by adopting a role model's approach.",
-      "delta_vs_prior": 5.294,
+      "delta_vs_prior": 3.409,
       "first_seen": "2026-07-04",
-      "frequency_7d": 29,
+      "frequency_7d": 24,
       "objection": false,
       "phrase": "feel stuck",
       "product_relevance": "unclear",
@@ -75,66 +75,49 @@
         "bluesky/burned out",
         "bluesky/feel stuck"
       ],
-      "trending_score": 0.435
+      "trending_score": 0.36
     },
     {
       "capacity_state": "empty",
       "context_sample": "A statement that healthcare workers are already severely depleted.",
-      "delta_vs_prior": 3.391,
+      "delta_vs_prior": 2.444,
       "first_seen": "2026-07-04",
-      "frequency_7d": 25,
+      "frequency_7d": 21,
       "objection": false,
       "phrase": "running on empty",
       "product_relevance": "reset",
       "sources": [
         "bluesky/running on empty"
       ],
-      "trending_score": 0.375
+      "trending_score": 0.315
     },
     {
       "capacity_state": "flat",
       "context_sample": "A character in creative fiction described as present but aimless, deriving amusement from deliberate evasion.",
-      "delta_vs_prior": 3.706,
+      "delta_vs_prior": 2.429,
       "first_seen": "2026-07-04",
-      "frequency_7d": 20,
+      "frequency_7d": 16,
       "objection": false,
       "phrase": "just existing",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/just existing"
       ],
-      "trending_score": 0.3
+      "trending_score": 0.24
     },
     {
       "capacity_state": "ambiguous",
       "context_sample": "Political commentary calling for wholesale replacement of elected officials.",
-      "delta_vs_prior": 4.636,
+      "delta_vs_prior": 3.462,
       "first_seen": "2026-07-04",
-      "frequency_7d": 16,
+      "frequency_7d": 14,
       "objection": false,
       "phrase": "start over",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/start over"
       ],
-      "trending_score": 0.24
-    },
-    {
-      "capacity_state": "ambiguous",
-      "context_sample": "Someone making a lighthearted comment about a long-standing friendship and their unchanging presence.",
-      "delta_vs_prior": 4.714,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 10,
-      "objection": false,
-      "phrase": "stuck with me",
-      "product_relevance": "unclear",
-      "sources": [
-        "bluesky/burned out",
-        "bluesky/feel stuck",
-        "hn/stuck",
-        "youtube/chriswilliamson"
-      ],
-      "trending_score": 0.18
+      "trending_score": 0.21
     },
     {
       "capacity_state": "flat",
@@ -154,27 +137,29 @@
     },
     {
       "capacity_state": "ambiguous",
-      "context_sample": "A self-deprecating comment about directional confusion.",
-      "delta_vs_prior": 4.125,
+      "context_sample": "Someone making a lighthearted comment about a long-standing friendship and their unchanging presence.",
+      "delta_vs_prior": 3.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 10,
+      "frequency_7d": 8,
       "objection": false,
-      "phrase": "no sense of direction",
+      "phrase": "stuck with me",
       "product_relevance": "unclear",
       "sources": [
-        "bluesky/no direction"
+        "bluesky/feel stuck",
+        "hn/stuck",
+        "youtube/chriswilliamson"
       ],
       "trending_score": 0.15
     },
     {
-      "capacity_state": "flat",
-      "context_sample": "Someone describing how lack of purpose makes them vulnerable to distraction.",
-      "delta_vs_prior": 1.875,
+      "capacity_state": "ambiguous",
+      "context_sample": "A self-deprecating comment about directional confusion.",
+      "delta_vs_prior": 3.333,
       "first_seen": "2026-07-04",
       "frequency_7d": 9,
       "objection": false,
-      "phrase": "no direction",
-      "product_relevance": "ignition",
+      "phrase": "no sense of direction",
+      "product_relevance": "unclear",
       "sources": [
         "bluesky/no direction"
       ],
@@ -195,6 +180,20 @@
         "youtube/diaryofaceo"
       ],
       "trending_score": 0.13
+    },
+    {
+      "capacity_state": "ready",
+      "context_sample": "Someone who felt trapped by traditional financial advice until discovering alternative wealth-building frameworks.",
+      "delta_vs_prior": 4.5,
+      "first_seen": "2026-07-05",
+      "frequency_7d": 5,
+      "objection": false,
+      "phrase": "always felt stuck",
+      "product_relevance": "ignition",
+      "sources": [
+        "youtube/diaryofaceo"
+      ],
+      "trending_score": 0.125
     },
     {
       "capacity_state": "flat",
@@ -225,37 +224,18 @@
       "trending_score": 0.125
     },
     {
-      "capacity_state": "empty",
-      "context_sample": "Someone expressing acute exhaustion and complete depletion of energy.",
-      "delta_vs_prior": 4.2,
+      "capacity_state": "flat",
+      "context_sample": "Someone describing how lack of purpose makes them vulnerable to distraction.",
+      "delta_vs_prior": 1.588,
       "first_seen": "2026-07-04",
-      "frequency_7d": 6,
+      "frequency_7d": 8,
       "objection": false,
-      "phrase": "exhausted",
-      "product_relevance": "reset",
+      "phrase": "no direction",
+      "product_relevance": "ignition",
       "sources": [
-        "bluesky/burned out",
-        "bluesky/feel stuck",
-        "bluesky/running on empty",
-        "bluesky/start over",
-        "youtube/chriswilliamson",
-        "youtube/melrobbins"
+        "bluesky/no direction"
       ],
-      "trending_score": 0.11
-    },
-    {
-      "capacity_state": "empty",
-      "context_sample": "Someone expressing inability to function due to complete burnout.",
-      "delta_vs_prior": 3.429,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 7,
-      "objection": false,
-      "phrase": "completely burned out",
-      "product_relevance": "reset",
-      "sources": [
-        "bluesky/burned out"
-      ],
-      "trending_score": 0.105
+      "trending_score": 0.12
     },
     {
       "capacity_state": "ambiguous",
@@ -272,15 +252,46 @@
       "trending_score": 0.1
     },
     {
-      "capacity_state": "flat",
-      "context_sample": "Someone describing a breakthrough after using a personality framework that clarified their core identity.",
+      "capacity_state": "ambiguous",
+      "context_sample": "A reader describing a book that revealed hidden financial mechanisms and prompted questioning of conventional wealth rules.",
       "delta_vs_prior": 5.0,
-      "first_seen": "2026-07-10",
+      "first_seen": "2026-07-14",
       "frequency_7d": 4,
       "objection": false,
-      "phrase": "felt stuck",
+      "phrase": "couldn't sleep after",
       "product_relevance": "ignition",
       "sources": [
+        "youtube/chriswilliamson",
+        "youtube/diaryofaceo",
+        "youtube/melrobbins"
+      ],
+      "trending_score": 0.1
+    },
+    {
+      "capacity_state": "ready",
+      "context_sample": "Someone who felt trapped by traditional financial advice until discovering alternative wealth-building frameworks.",
+      "delta_vs_prior": 5.0,
+      "first_seen": "2026-07-16",
+      "frequency_7d": 4,
+      "objection": false,
+      "phrase": "forbidden knowledge",
+      "product_relevance": "ignition",
+      "sources": [
+        "youtube/diaryofaceo"
+      ],
+      "trending_score": 0.1
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "A reader describing a book that revealed hidden financial mechanisms and prompted questioning of conventional wealth rules.",
+      "delta_vs_prior": 5.0,
+      "first_seen": "2026-07-14",
+      "frequency_7d": 4,
+      "objection": false,
+      "phrase": "whispers things no one says out loud",
+      "product_relevance": "ignition",
+      "sources": [
+        "youtube/chriswilliamson",
         "youtube/diaryofaceo",
         "youtube/melrobbins"
       ],
@@ -299,21 +310,6 @@
         "bluesky/burned out"
       ],
       "trending_score": 0.09
-    },
-    {
-      "capacity_state": "empty",
-      "context_sample": "A person noting that their usual support network is itself depleted and unavailable.",
-      "delta_vs_prior": 4.5,
-      "first_seen": "2026-07-07",
-      "frequency_7d": 5,
-      "objection": false,
-      "phrase": "already burned out",
-      "product_relevance": "reset",
-      "sources": [
-        "bluesky/burned out",
-        "youtube/chriswilliamson"
-      ],
-      "trending_score": 0.085
     },
     {
       "capacity_state": "empty",
@@ -345,6 +341,20 @@
       "trending_score": 0.075
     },
     {
+      "capacity_state": "empty",
+      "context_sample": "Someone expressing inability to function due to complete burnout.",
+      "delta_vs_prior": 2.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 5,
+      "objection": false,
+      "phrase": "completely burned out",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/burned out"
+      ],
+      "trending_score": 0.075
+    },
+    {
       "capacity_state": "ready",
       "context_sample": "Someone describing a pattern of weekly diet restarts that failed until understanding habit formation over motivation.",
       "delta_vs_prior": 4.0,
@@ -370,21 +380,6 @@
       "sources": [
         "youtube/diaryofaceo",
         "youtube/melrobbins"
-      ],
-      "trending_score": 0.075
-    },
-    {
-      "capacity_state": "ready",
-      "context_sample": "Someone who struggled with manifestation for years until a personality framework provided direction and clarity.",
-      "delta_vs_prior": 4.0,
-      "first_seen": "2026-07-10",
-      "frequency_7d": 3,
-      "objection": false,
-      "phrase": "fumbling around",
-      "product_relevance": "ignition",
-      "sources": [
-        "youtube/diaryofaceo",
-        "youtube/lavendaire"
       ],
       "trending_score": 0.075
     },
@@ -430,6 +425,20 @@
       "sources": [
         "youtube/chriswilliamson",
         "youtube/melrobbins"
+      ],
+      "trending_score": 0.075
+    },
+    {
+      "capacity_state": "ready",
+      "context_sample": "A person reflecting on how internal standards and decision-making precede external financial results.",
+      "delta_vs_prior": 2.4,
+      "first_seen": "2026-07-05",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "mindset shift",
+      "product_relevance": "ignition",
+      "sources": [
+        "youtube/diaryofaceo"
       ],
       "trending_score": 0.075
     },
@@ -492,18 +501,48 @@
       "trending_score": 0.075
     },
     {
-      "capacity_state": "empty",
-      "context_sample": "Someone depleted and unable to engage with the activities that would restore their energy.",
+      "capacity_state": "ready",
+      "context_sample": "A person reflecting on how internal standards and decision-making precede external financial results.",
       "delta_vs_prior": 3.0,
-      "first_seen": "2026-07-06",
-      "frequency_7d": 4,
+      "first_seen": "2026-07-05",
+      "frequency_7d": 3,
       "objection": false,
-      "phrase": "so burned out",
+      "phrase": "upgrading behavior and clarity",
+      "product_relevance": "ignition",
+      "sources": [
+        "youtube/diaryofaceo"
+      ],
+      "trending_score": 0.075
+    },
+    {
+      "capacity_state": "ready",
+      "context_sample": "Someone who felt trapped by traditional financial advice until discovering alternative wealth-building frameworks.",
+      "delta_vs_prior": 4.0,
+      "first_seen": "2026-07-17",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "cheating the system",
+      "product_relevance": "ignition",
+      "sources": [
+        "youtube/diaryofaceo"
+      ],
+      "trending_score": 0.075
+    },
+    {
+      "capacity_state": "empty",
+      "context_sample": "Someone expressing acute exhaustion and complete depletion of energy.",
+      "delta_vs_prior": 1.5,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "exhausted",
       "product_relevance": "reset",
       "sources": [
-        "bluesky/burned out"
+        "bluesky/running on empty",
+        "bluesky/start over",
+        "youtube/chriswilliamson"
       ],
-      "trending_score": 0.06
+      "trending_score": 0.055
     },
     {
       "capacity_state": "ambiguous",
@@ -521,34 +560,18 @@
       "trending_score": 0.055
     },
     {
-      "capacity_state": "ambiguous",
-      "context_sample": "Someone rejecting AI-generated replicas of deceased loved ones as a harmful grief avoidance mechanism.",
-      "delta_vs_prior": 4.0,
-      "first_seen": "2026-07-10",
-      "frequency_7d": 3,
-      "objection": true,
-      "phrase": "getting stuck",
-      "product_relevance": "ignition",
-      "sources": [
-        "bluesky/feel stuck",
-        "hn/stuck"
-      ],
-      "trending_score": 0.05
-    },
-    {
-      "capacity_state": "ambiguous",
-      "context_sample": "A user reporting instability with an AI tool despite finding it valuable at its price point.",
-      "delta_vs_prior": 1.714,
-      "first_seen": "2026-07-08",
+      "capacity_state": "empty",
+      "context_sample": "Someone depleted and unable to engage with the activities that would restore their energy.",
+      "delta_vs_prior": 2.0,
+      "first_seen": "2026-07-06",
       "frequency_7d": 3,
       "objection": false,
-      "phrase": "stuck in a loop",
-      "product_relevance": "unclear",
+      "phrase": "so burned out",
+      "product_relevance": "reset",
       "sources": [
-        "bluesky/feel stuck",
-        "hn/stuck"
+        "bluesky/burned out"
       ],
-      "trending_score": 0.05
+      "trending_score": 0.045
     },
     {
       "capacity_state": "ambiguous",
