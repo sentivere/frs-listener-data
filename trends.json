@@ -1,24 +1,24 @@
 {
   "baseline_status": "cold_start",
-  "generated": "2026-07-17T07:00:46Z",
+  "generated": "2026-07-18T06:31:24Z",
   "run": {
-    "items_tagged": 114,
+    "items_tagged": 785,
     "modules": {
       "appstore": "ok",
-      "bluesky": "failed",
+      "bluesky": "ok",
       "hn": "ok",
       "reddit": "off",
       "youtube": "ok"
     },
-    "tagging_mode": "standard"
+    "tagging_mode": "batch"
   },
   "trends": [
     {
       "capacity_state": "empty",
-      "context_sample": "A discussion of engine reliability issues with high-compression turbocharged small-displacement engines.",
-      "delta_vs_prior": 2.746,
+      "context_sample": "A decade-long tech professional considering abandoning the industry due to severe burnout and anxiety.",
+      "delta_vs_prior": 2.448,
       "first_seen": "2026-07-03",
-      "frequency_7d": 64,
+      "frequency_7d": 70,
       "objection": false,
       "phrase": "burned out",
       "product_relevance": "reset",
@@ -26,17 +26,16 @@
         "bluesky/burned out",
         "bluesky/no direction",
         "hn/burned out",
-        "youtube/chriswilliamson",
-        "youtube/diaryofaceo"
+        "youtube/chriswilliamson"
       ],
-      "trending_score": 0.616
+      "trending_score": 0.609
     },
     {
       "capacity_state": "flat",
-      "context_sample": "A skeptical comment about the appearance of fairness in a predetermined decision.",
-      "delta_vs_prior": 3.9,
+      "context_sample": "Someone experiencing emotional depletion and requesting supportive messages to restore morale.",
+      "delta_vs_prior": 4.465,
       "first_seen": "2026-07-04",
-      "frequency_7d": 51,
+      "frequency_7d": 63,
       "objection": false,
       "phrase": "going through the motions",
       "product_relevance": "ignition",
@@ -48,26 +47,25 @@
     },
     {
       "capacity_state": "empty",
-      "context_sample": "A news headline about economic pressure forcing families to sell homes in a specific city.",
-      "delta_vs_prior": 3.207,
+      "context_sample": "A comment noting that someone faces acute rejection and is operating under extreme pressure.",
+      "delta_vs_prior": 2.561,
       "first_seen": "2026-07-04",
-      "frequency_7d": 30,
+      "frequency_7d": 34,
       "objection": false,
       "phrase": "survival mode",
       "product_relevance": "reset",
       "sources": [
-        "bluesky/feel stuck",
         "bluesky/survival mode",
         "youtube/lavendaire"
       ],
-      "trending_score": 0.46
+      "trending_score": 0.52
     },
     {
       "capacity_state": "ambiguous",
-      "context_sample": "Someone admiring another's efficiency and describing how they overcome their own execution blocks by adopting a role model's approach.",
-      "delta_vs_prior": 3.409,
+      "context_sample": "Someone experiencing depression with low motivation despite efforts to improve through exercise and diet.",
+      "delta_vs_prior": 2.88,
       "first_seen": "2026-07-04",
-      "frequency_7d": 24,
+      "frequency_7d": 23,
       "objection": false,
       "phrase": "feel stuck",
       "product_relevance": "unclear",
@@ -75,49 +73,49 @@
         "bluesky/burned out",
         "bluesky/feel stuck"
       ],
-      "trending_score": 0.36
+      "trending_score": 0.345
     },
     {
       "capacity_state": "empty",
-      "context_sample": "A statement that healthcare workers are already severely depleted.",
-      "delta_vs_prior": 2.444,
+      "context_sample": "A sector-wide report documenting worker depletion and financial strain in domestic violence services.",
+      "delta_vs_prior": 2.323,
       "first_seen": "2026-07-04",
-      "frequency_7d": 21,
+      "frequency_7d": 23,
       "objection": false,
       "phrase": "running on empty",
       "product_relevance": "reset",
       "sources": [
         "bluesky/running on empty"
       ],
-      "trending_score": 0.315
+      "trending_score": 0.345
     },
     {
       "capacity_state": "flat",
-      "context_sample": "A character in creative fiction described as present but aimless, deriving amusement from deliberate evasion.",
-      "delta_vs_prior": 2.429,
+      "context_sample": "Someone describing others' reactions to their current state of simply going through life.",
+      "delta_vs_prior": 2.727,
       "first_seen": "2026-07-04",
-      "frequency_7d": 16,
+      "frequency_7d": 19,
       "objection": false,
       "phrase": "just existing",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/just existing"
       ],
-      "trending_score": 0.24
+      "trending_score": 0.285
     },
     {
       "capacity_state": "ambiguous",
-      "context_sample": "Political commentary calling for wholesale replacement of elected officials.",
-      "delta_vs_prior": 3.462,
+      "context_sample": "A brief comment about severe damage requiring relocation and rebuilding.",
+      "delta_vs_prior": 3.857,
       "first_seen": "2026-07-04",
-      "frequency_7d": 14,
+      "frequency_7d": 17,
       "objection": false,
       "phrase": "start over",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/start over"
       ],
-      "trending_score": 0.21
+      "trending_score": 0.255
     },
     {
       "capacity_state": "flat",
@@ -138,9 +136,9 @@
     {
       "capacity_state": "ambiguous",
       "context_sample": "Someone making a lighthearted comment about a long-standing friendship and their unchanging presence.",
-      "delta_vs_prior": 3.0,
+      "delta_vs_prior": 2.4,
       "first_seen": "2026-07-04",
-      "frequency_7d": 8,
+      "frequency_7d": 7,
       "objection": false,
       "phrase": "stuck with me",
       "product_relevance": "unclear",
@@ -149,37 +147,7 @@
         "hn/stuck",
         "youtube/chriswilliamson"
       ],
-      "trending_score": 0.15
-    },
-    {
-      "capacity_state": "ambiguous",
-      "context_sample": "A self-deprecating comment about directional confusion.",
-      "delta_vs_prior": 3.333,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 9,
-      "objection": false,
-      "phrase": "no sense of direction",
-      "product_relevance": "unclear",
-      "sources": [
-        "bluesky/no direction"
-      ],
       "trending_score": 0.135
-    },
-    {
-      "capacity_state": "ambiguous",
-      "context_sample": "An artist describing a tactical refresh strategy when facing creative blocks.",
-      "delta_vs_prior": 2.4,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 7,
-      "objection": false,
-      "phrase": "stuck",
-      "product_relevance": "ignition",
-      "sources": [
-        "bluesky/feel stuck",
-        "hn/stuck",
-        "youtube/diaryofaceo"
-      ],
-      "trending_score": 0.13
     },
     {
       "capacity_state": "ready",
@@ -197,36 +165,8 @@
     },
     {
       "capacity_state": "flat",
-      "context_sample": "A person recognizing they were numb and avoiding challenge rather than blocked by external circumstances.",
-      "delta_vs_prior": 4.5,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 5,
-      "objection": false,
-      "phrase": "comfortably stuck",
-      "product_relevance": "ignition",
-      "sources": [
-        "youtube/melrobbins"
-      ],
-      "trending_score": 0.125
-    },
-    {
-      "capacity_state": "ready",
-      "context_sample": "Someone describing the struggle to show up when motivation is absent and crediting a book with pushing through.",
-      "delta_vs_prior": 6.0,
-      "first_seen": "2026-07-11",
-      "frequency_7d": 5,
-      "objection": false,
-      "phrase": "motivation is zero",
-      "product_relevance": "ignition",
-      "sources": [
-        "youtube/melrobbins"
-      ],
-      "trending_score": 0.125
-    },
-    {
-      "capacity_state": "flat",
-      "context_sample": "Someone describing how lack of purpose makes them vulnerable to distraction.",
-      "delta_vs_prior": 1.588,
+      "context_sample": "A humorous or philosophical statement about rejecting directional alignment in group dynamics.",
+      "delta_vs_prior": 1.35,
       "first_seen": "2026-07-04",
       "frequency_7d": 8,
       "objection": false,
@@ -239,6 +179,35 @@
     },
     {
       "capacity_state": "ambiguous",
+      "context_sample": "Someone describing exhaustion from a creative project and needing to recover motivation to finish it.",
+      "delta_vs_prior": 3.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 7,
+      "objection": false,
+      "phrase": "burned myself out",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/burned out"
+      ],
+      "trending_score": 0.105
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "An article headline about workers experiencing wage stagnation, excessive workload, and rising living costs.",
+      "delta_vs_prior": 1.75,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 6,
+      "objection": false,
+      "phrase": "stuck",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/feel stuck",
+        "hn/stuck"
+      ],
+      "trending_score": 0.105
+    },
+    {
+      "capacity_state": "ambiguous",
       "context_sample": "A reader praising a self-help book for its honesty and depth compared to typical genre offerings.",
       "delta_vs_prior": 3.0,
       "first_seen": "2026-07-04",
@@ -246,6 +215,20 @@
       "objection": false,
       "phrase": "brutally different",
       "product_relevance": "unclear",
+      "sources": [
+        "youtube/melrobbins"
+      ],
+      "trending_score": 0.1
+    },
+    {
+      "capacity_state": "flat",
+      "context_sample": "A person recognizing they were numb and avoiding challenge rather than blocked by external circumstances.",
+      "delta_vs_prior": 3.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 4,
+      "objection": false,
+      "phrase": "comfortably stuck",
+      "product_relevance": "ignition",
       "sources": [
         "youtube/melrobbins"
       ],
@@ -268,6 +251,23 @@
       "trending_score": 0.1
     },
     {
+      "capacity_state": "empty",
+      "context_sample": "A medical description of how chronic inflammation depletes multiple body systems and cognition in women with lipedema.",
+      "delta_vs_prior": 2.625,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 6,
+      "objection": false,
+      "phrase": "exhausted",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/feel stuck",
+        "bluesky/running on empty",
+        "bluesky/start over",
+        "youtube/chriswilliamson"
+      ],
+      "trending_score": 0.1
+    },
+    {
       "capacity_state": "ready",
       "context_sample": "Someone who felt trapped by traditional financial advice until discovering alternative wealth-building frameworks.",
       "delta_vs_prior": 5.0,
@@ -278,6 +278,20 @@
       "product_relevance": "ignition",
       "sources": [
         "youtube/diaryofaceo"
+      ],
+      "trending_score": 0.1
+    },
+    {
+      "capacity_state": "ready",
+      "context_sample": "Someone describing the struggle to show up when motivation is absent and crediting a book with pushing through.",
+      "delta_vs_prior": 3.75,
+      "first_seen": "2026-07-11",
+      "frequency_7d": 4,
+      "objection": false,
+      "phrase": "motivation is zero",
+      "product_relevance": "ignition",
+      "sources": [
+        "youtube/melrobbins"
       ],
       "trending_score": 0.1
     },
@@ -298,20 +312,6 @@
       "trending_score": 0.1
     },
     {
-      "capacity_state": "ambiguous",
-      "context_sample": "Someone describing overextension on a hobby project and needing to recover momentum.",
-      "delta_vs_prior": 3.0,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 6,
-      "objection": false,
-      "phrase": "burned myself out",
-      "product_relevance": "unclear",
-      "sources": [
-        "bluesky/burned out"
-      ],
-      "trending_score": 0.09
-    },
-    {
       "capacity_state": "empty",
       "context_sample": "Someone unable to pursue creative work due to alternating between depletion and physical injury.",
       "delta_vs_prior": 4.5,
@@ -325,6 +325,20 @@
         "youtube/diaryofaceo"
       ],
       "trending_score": 0.085
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "Someone describing exhaustion from a game series despite enjoying the game itself.",
+      "delta_vs_prior": 1.636,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 5,
+      "objection": false,
+      "phrase": "burned me out",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/burned out"
+      ],
+      "trending_score": 0.075
     },
     {
       "capacity_state": "empty",
@@ -341,6 +355,20 @@
       "trending_score": 0.075
     },
     {
+      "capacity_state": "ready",
+      "context_sample": "Someone who felt trapped by traditional financial advice until discovering alternative wealth-building frameworks.",
+      "delta_vs_prior": 4.0,
+      "first_seen": "2026-07-17",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "cheating the system",
+      "product_relevance": "ignition",
+      "sources": [
+        "youtube/diaryofaceo"
+      ],
+      "trending_score": 0.075
+    },
+    {
       "capacity_state": "empty",
       "context_sample": "Someone expressing inability to function due to complete burnout.",
       "delta_vs_prior": 2.0,
@@ -351,20 +379,6 @@
       "product_relevance": "reset",
       "sources": [
         "bluesky/burned out"
-      ],
-      "trending_score": 0.075
-    },
-    {
-      "capacity_state": "ready",
-      "context_sample": "Someone describing a pattern of weekly diet restarts that failed until understanding habit formation over motivation.",
-      "delta_vs_prior": 4.0,
-      "first_seen": "2026-07-11",
-      "frequency_7d": 3,
-      "objection": false,
-      "phrase": "cycle kept repeating",
-      "product_relevance": "ignition",
-      "sources": [
-        "youtube/diaryofaceo"
       ],
       "trending_score": 0.075
     },
@@ -443,6 +457,20 @@
       "trending_score": 0.075
     },
     {
+      "capacity_state": "ambiguous",
+      "context_sample": "A lighthearted comment about someone or something lacking directional awareness.",
+      "delta_vs_prior": 1.2,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 5,
+      "objection": false,
+      "phrase": "no sense of direction",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/no direction"
+      ],
+      "trending_score": 0.075
+    },
+    {
       "capacity_state": "empty",
       "context_sample": "Someone in acute financial and personal crisis who credits a book with shifting their decision-making and stabilizing their business.",
       "delta_vs_prior": 4.0,
@@ -453,20 +481,6 @@
       "product_relevance": "reset",
       "sources": [
         "youtube/melrobbins"
-      ],
-      "trending_score": 0.075
-    },
-    {
-      "capacity_state": "ready",
-      "context_sample": "Someone describing a pattern of weekly diet restarts that failed until understanding habit formation over motivation.",
-      "delta_vs_prior": 4.0,
-      "first_seen": "2026-07-11",
-      "frequency_7d": 3,
-      "objection": false,
-      "phrase": "quit by friday",
-      "product_relevance": "ignition",
-      "sources": [
-        "youtube/diaryofaceo"
       ],
       "trending_score": 0.075
     },
@@ -487,8 +501,8 @@
     },
     {
       "capacity_state": "empty",
-      "context_sample": "A wellness post reframing survival-mode behaviors as adaptive rather than character flaws, offering self-compassion.",
-      "delta_vs_prior": 3.0,
+      "context_sample": "A motivational post framing vision as essential to escape survival-mode functioning.",
+      "delta_vs_prior": 2.571,
       "first_seen": "2026-07-05",
       "frequency_7d": 5,
       "objection": false,
@@ -515,31 +529,48 @@
       "trending_score": 0.075
     },
     {
-      "capacity_state": "ready",
-      "context_sample": "Someone who felt trapped by traditional financial advice until discovering alternative wealth-building frameworks.",
-      "delta_vs_prior": 4.0,
-      "first_seen": "2026-07-17",
-      "frequency_7d": 3,
+      "capacity_state": "empty",
+      "context_sample": "An artist experiencing severe burnout who cannot motivate themselves to share completed work or engage in creative activity.",
+      "delta_vs_prior": 2.5,
+      "first_seen": "2026-07-06",
+      "frequency_7d": 4,
       "objection": false,
-      "phrase": "cheating the system",
-      "product_relevance": "ignition",
+      "phrase": "so burned out",
+      "product_relevance": "reset",
       "sources": [
-        "youtube/diaryofaceo"
+        "bluesky/burned out"
       ],
-      "trending_score": 0.075
+      "trending_score": 0.06
     },
     {
       "capacity_state": "empty",
-      "context_sample": "Someone expressing acute exhaustion and complete depletion of energy.",
-      "delta_vs_prior": 1.5,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 3,
+      "context_sample": "Someone describing acute physical and emotional exhaustion from heat, medication changes, and caffeine withdrawal.",
+      "delta_vs_prior": 5.0,
+      "first_seen": "2026-07-13",
+      "frequency_7d": 4,
       "objection": false,
-      "phrase": "exhausted",
+      "phrase": "so tired",
       "product_relevance": "reset",
       "sources": [
-        "bluesky/running on empty",
-        "bluesky/start over",
+        "bluesky/burned out",
+        "bluesky/feel stuck",
+        "bluesky/just existing",
+        "bluesky/no direction"
+      ],
+      "trending_score": 0.06
+    },
+    {
+      "capacity_state": "empty",
+      "context_sample": "Someone listing multiple stressors including illness and societal pressures as sources of exhaustion.",
+      "delta_vs_prior": 3.0,
+      "first_seen": "2026-07-07",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "exhausting",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/burned out",
+        "bluesky/just existing",
         "youtube/chriswilliamson"
       ],
       "trending_score": 0.055
@@ -560,16 +591,59 @@
       "trending_score": 0.055
     },
     {
-      "capacity_state": "empty",
-      "context_sample": "Someone depleted and unable to engage with the activities that would restore their energy.",
-      "delta_vs_prior": 2.0,
-      "first_seen": "2026-07-06",
+      "capacity_state": "ambiguous",
+      "context_sample": "Someone describing dissociation, physical pain, and temporal disorientation alongside fragmented progress on personal organization.",
+      "delta_vs_prior": 1.5,
+      "first_seen": "2026-07-08",
       "frequency_7d": 3,
       "objection": false,
-      "phrase": "so burned out",
+      "phrase": "stuck in a loop",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/feel stuck",
+        "hn/stuck"
+      ],
+      "trending_score": 0.05
+    },
+    {
+      "capacity_state": "empty",
+      "context_sample": "Someone unable to work, ineligible for benefits, financially dependent, and experiencing guilt over reliance.",
+      "delta_vs_prior": 1.714,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "feel so stuck",
       "product_relevance": "reset",
       "sources": [
-        "bluesky/burned out"
+        "bluesky/feel stuck"
+      ],
+      "trending_score": 0.045
+    },
+    {
+      "capacity_state": "flat",
+      "context_sample": "Someone describing the experience of performing manifestation practices mechanically without genuine belief or emotional resonance.",
+      "delta_vs_prior": 4.0,
+      "first_seen": "2026-07-16",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "feels forced",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/going through the motions"
+      ],
+      "trending_score": 0.045
+    },
+    {
+      "capacity_state": "empty",
+      "context_sample": "A medical description of how chronic inflammation depletes multiple body systems and cognition in women with lipedema.",
+      "delta_vs_prior": 4.0,
+      "first_seen": "2026-07-14",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "foggy",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/feel stuck"
       ],
       "trending_score": 0.045
     },
@@ -584,6 +658,20 @@
       "product_relevance": "unclear",
       "sources": [
         "bluesky/no direction"
+      ],
+      "trending_score": 0.045
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "Narrative reflection on how past parental pressure has affected a character's trajectory.",
+      "delta_vs_prior": 3.0,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "stuck with",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/feel stuck"
       ],
       "trending_score": 0.045
     }
