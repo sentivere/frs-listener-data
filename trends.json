@@ -1,8 +1,8 @@
 {
   "baseline_status": "cold_start",
-  "generated": "2026-07-18T06:31:24Z",
+  "generated": "2026-07-19T07:11:01Z",
   "run": {
-    "items_tagged": 785,
+    "items_tagged": 656,
     "modules": {
       "appstore": "ok",
       "bluesky": "ok",
@@ -15,27 +15,43 @@
   "trends": [
     {
       "capacity_state": "empty",
-      "context_sample": "A decade-long tech professional considering abandoning the industry due to severe burnout and anxiety.",
-      "delta_vs_prior": 2.448,
+      "context_sample": "A person expressing extreme exhaustion and dread about an extended period of sustained stress.",
+      "delta_vs_prior": 3.439,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 46,
+      "objection": false,
+      "phrase": "survival mode",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/survival mode",
+        "youtube/lavendaire"
+      ],
+      "trending_score": 0.609
+    },
+    {
+      "capacity_state": "empty",
+      "context_sample": "An artist describing burnout from prolonged survival mode and loss of creative joy.",
+      "delta_vs_prior": 2.655,
       "first_seen": "2026-07-03",
-      "frequency_7d": 70,
+      "frequency_7d": 76,
       "objection": false,
       "phrase": "burned out",
       "product_relevance": "reset",
       "sources": [
         "bluesky/burned out",
         "bluesky/no direction",
+        "bluesky/survival mode",
         "hn/burned out",
         "youtube/chriswilliamson"
       ],
-      "trending_score": 0.609
+      "trending_score": 0.608
     },
     {
       "capacity_state": "flat",
-      "context_sample": "Someone experiencing emotional depletion and requesting supportive messages to restore morale.",
-      "delta_vs_prior": 4.465,
+      "context_sample": "A school worker noting widespread exhaustion preventing genuine engagement in end-of-term activities.",
+      "delta_vs_prior": 5.093,
       "first_seen": "2026-07-04",
-      "frequency_7d": 63,
+      "frequency_7d": 72,
       "objection": false,
       "phrase": "going through the motions",
       "product_relevance": "ignition",
@@ -47,25 +63,24 @@
     },
     {
       "capacity_state": "empty",
-      "context_sample": "A comment noting that someone faces acute rejection and is operating under extreme pressure.",
-      "delta_vs_prior": 2.561,
+      "context_sample": "A person describing burnout as unsustainable resource depletion leading to collapse.",
+      "delta_vs_prior": 2.903,
       "first_seen": "2026-07-04",
-      "frequency_7d": 34,
+      "frequency_7d": 29,
       "objection": false,
-      "phrase": "survival mode",
+      "phrase": "running on empty",
       "product_relevance": "reset",
       "sources": [
-        "bluesky/survival mode",
-        "youtube/lavendaire"
+        "bluesky/running on empty"
       ],
-      "trending_score": 0.52
+      "trending_score": 0.435
     },
     {
       "capacity_state": "ambiguous",
-      "context_sample": "Someone experiencing depression with low motivation despite efforts to improve through exercise and diet.",
-      "delta_vs_prior": 2.88,
+      "context_sample": "A creative concept targeting people who feel trapped in their current circumstances.",
+      "delta_vs_prior": 3.24,
       "first_seen": "2026-07-04",
-      "frequency_7d": 23,
+      "frequency_7d": 26,
       "objection": false,
       "phrase": "feel stuck",
       "product_relevance": "unclear",
@@ -73,35 +88,21 @@
         "bluesky/burned out",
         "bluesky/feel stuck"
       ],
-      "trending_score": 0.345
-    },
-    {
-      "capacity_state": "empty",
-      "context_sample": "A sector-wide report documenting worker depletion and financial strain in domestic violence services.",
-      "delta_vs_prior": 2.323,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 23,
-      "objection": false,
-      "phrase": "running on empty",
-      "product_relevance": "reset",
-      "sources": [
-        "bluesky/running on empty"
-      ],
-      "trending_score": 0.345
+      "trending_score": 0.39
     },
     {
       "capacity_state": "flat",
-      "context_sample": "Someone describing others' reactions to their current state of simply going through life.",
-      "delta_vs_prior": 2.727,
+      "context_sample": "A promotional post about vacation relaxation and maintaining an effortless appearance.",
+      "delta_vs_prior": 3.136,
       "first_seen": "2026-07-04",
-      "frequency_7d": 19,
+      "frequency_7d": 22,
       "objection": false,
       "phrase": "just existing",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/just existing"
       ],
-      "trending_score": 0.285
+      "trending_score": 0.33
     },
     {
       "capacity_state": "ambiguous",
@@ -134,6 +135,20 @@
       "trending_score": 0.15
     },
     {
+      "capacity_state": "flat",
+      "context_sample": "Someone learning a skill but unable to identify purpose or meaningful progress.",
+      "delta_vs_prior": 1.5,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 9,
+      "objection": false,
+      "phrase": "no direction",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/no direction"
+      ],
+      "trending_score": 0.135
+    },
+    {
       "capacity_state": "ambiguous",
       "context_sample": "Someone making a lighthearted comment about a long-standing friendship and their unchanging presence.",
       "delta_vs_prior": 2.4,
@@ -162,20 +177,6 @@
         "youtube/diaryofaceo"
       ],
       "trending_score": 0.125
-    },
-    {
-      "capacity_state": "flat",
-      "context_sample": "A humorous or philosophical statement about rejecting directional alignment in group dynamics.",
-      "delta_vs_prior": 1.35,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 8,
-      "objection": false,
-      "phrase": "no direction",
-      "product_relevance": "ignition",
-      "sources": [
-        "bluesky/no direction"
-      ],
-      "trending_score": 0.12
     },
     {
       "capacity_state": "ambiguous",
@@ -313,6 +314,34 @@
     },
     {
       "capacity_state": "empty",
+      "context_sample": "Someone acknowledging burnout from an activity they joined impulsively and explaining their reduced online presence.",
+      "delta_vs_prior": 1.909,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 6,
+      "objection": false,
+      "phrase": "burned me out",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/burned out"
+      ],
+      "trending_score": 0.09
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "Someone humorously describing a lifelong inability to navigate or orient themselves spatially.",
+      "delta_vs_prior": 1.4,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 6,
+      "objection": false,
+      "phrase": "no sense of direction",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/no direction"
+      ],
+      "trending_score": 0.09
+    },
+    {
+      "capacity_state": "empty",
       "context_sample": "Someone unable to pursue creative work due to alternating between depletion and physical injury.",
       "delta_vs_prior": 4.5,
       "first_seen": "2026-07-07",
@@ -325,20 +354,6 @@
         "youtube/diaryofaceo"
       ],
       "trending_score": 0.085
-    },
-    {
-      "capacity_state": "ambiguous",
-      "context_sample": "Someone describing exhaustion from a game series despite enjoying the game itself.",
-      "delta_vs_prior": 1.636,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 5,
-      "objection": false,
-      "phrase": "burned me out",
-      "product_relevance": "unclear",
-      "sources": [
-        "bluesky/burned out"
-      ],
-      "trending_score": 0.075
     },
     {
       "capacity_state": "empty",
@@ -457,20 +472,6 @@
       "trending_score": 0.075
     },
     {
-      "capacity_state": "ambiguous",
-      "context_sample": "A lighthearted comment about someone or something lacking directional awareness.",
-      "delta_vs_prior": 1.2,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 5,
-      "objection": false,
-      "phrase": "no sense of direction",
-      "product_relevance": "unclear",
-      "sources": [
-        "bluesky/no direction"
-      ],
-      "trending_score": 0.075
-    },
-    {
       "capacity_state": "empty",
       "context_sample": "Someone in acute financial and personal crisis who credits a book with shifting their decision-making and stabilizing their business.",
       "delta_vs_prior": 4.0,
@@ -530,6 +531,22 @@
     },
     {
       "capacity_state": "empty",
+      "context_sample": "A person describing depletion and longing for emotional numbness as relief from current distress.",
+      "delta_vs_prior": 3.75,
+      "first_seen": "2026-07-07",
+      "frequency_7d": 4,
+      "objection": false,
+      "phrase": "exhausting",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/burned out",
+        "bluesky/just existing",
+        "youtube/chriswilliamson"
+      ],
+      "trending_score": 0.07
+    },
+    {
+      "capacity_state": "empty",
       "context_sample": "An artist experiencing severe burnout who cannot motivate themselves to share completed work or engage in creative activity.",
       "delta_vs_prior": 2.5,
       "first_seen": "2026-07-06",
@@ -560,22 +577,6 @@
       "trending_score": 0.06
     },
     {
-      "capacity_state": "empty",
-      "context_sample": "Someone listing multiple stressors including illness and societal pressures as sources of exhaustion.",
-      "delta_vs_prior": 3.0,
-      "first_seen": "2026-07-07",
-      "frequency_7d": 3,
-      "objection": false,
-      "phrase": "exhausting",
-      "product_relevance": "reset",
-      "sources": [
-        "bluesky/burned out",
-        "bluesky/just existing",
-        "youtube/chriswilliamson"
-      ],
-      "trending_score": 0.055
-    },
-    {
       "capacity_state": "ambiguous",
       "context_sample": "Someone dealing with severe air pollution and the stress of emergency home sealing.",
       "delta_vs_prior": 3.0,
@@ -587,6 +588,21 @@
       "sources": [
         "bluesky/burned out",
         "hn/stuck"
+      ],
+      "trending_score": 0.055
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "Someone observing that incremental gains are accumulating toward an undesired outcome.",
+      "delta_vs_prior": 3.0,
+      "first_seen": "2026-07-06",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "wrong direction",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/no direction",
+        "youtube/diaryofaceo"
       ],
       "trending_score": 0.055
     },
