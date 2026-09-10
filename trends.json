@@ -1,8 +1,8 @@
 {
   "baseline_status": "active",
-  "generated": "2026-09-09T09:08:35Z",
+  "generated": "2026-09-10T09:07:57Z",
   "run": {
-    "items_tagged": 762,
+    "items_tagged": 791,
     "modules": {
       "appstore": "ok",
       "bluesky": "ok",
@@ -10,7 +10,7 @@
       "reddit": "off",
       "youtube": "ok"
     },
-    "tagging_mode": "standard"
+    "tagging_mode": "batch"
   },
   "trends": [
     {
@@ -27,20 +27,6 @@
         "youtube/melrobbins"
       ],
       "trending_score": 0.546
-    },
-    {
-      "capacity_state": "ambiguous",
-      "context_sample": "Someone criticizing a design approach that blends two distinct styles without coherent artistic vision.",
-      "delta_vs_prior": 4.5,
-      "first_seen": "2026-07-06",
-      "frequency_7d": 23,
-      "objection": false,
-      "phrase": "no clear direction",
-      "product_relevance": "unclear",
-      "sources": [
-        "bluesky/no direction"
-      ],
-      "trending_score": 0.498
     },
     {
       "capacity_state": "ready",
@@ -90,28 +76,14 @@
       "trending_score": 0.39
     },
     {
-      "capacity_state": "flat",
-      "context_sample": "A sports analyst describing a team's recruitment outcome as both tactically weak and strategically incoherent.",
+      "capacity_state": "ambiguous",
+      "context_sample": "Contrasting past Nintendo games' visual coherence with a current remake's approach.",
       "delta_vs_prior": 4.0,
-      "first_seen": "2026-09-03",
+      "first_seen": "2026-07-28",
       "frequency_7d": 3,
       "objection": false,
-      "phrase": "no clear strategic direction",
-      "product_relevance": "ignition",
-      "sources": [
-        "bluesky/no direction"
-      ],
-      "trending_score": 0.378
-    },
-    {
-      "capacity_state": "flat",
-      "context_sample": "A sports analyst describing a team's recruitment outcome as both tactically weak and strategically incoherent.",
-      "delta_vs_prior": 4.0,
-      "first_seen": "2026-09-03",
-      "frequency_7d": 3,
-      "objection": false,
-      "phrase": "underpowered attack",
-      "product_relevance": "ignition",
+      "phrase": "no art direction",
+      "product_relevance": "unclear",
       "sources": [
         "bluesky/no direction"
       ],
@@ -134,80 +106,65 @@
       "trending_score": 0.361
     },
     {
-      "capacity_state": "ambiguous",
-      "context_sample": "A note that debugging sleep issues requires physical interaction with hardware after it becomes unresponsive.",
-      "delta_vs_prior": 3.0,
-      "first_seen": "2026-07-08",
-      "frequency_7d": 3,
-      "objection": false,
-      "phrase": "gets stuck",
-      "product_relevance": "unclear",
-      "sources": [
-        "bluesky/feel stuck",
-        "hn/stuck"
-      ],
-      "trending_score": 0.352
-    },
-    {
       "capacity_state": "flat",
-      "context_sample": "Someone praising a game for breaking out of repetitive storytelling with a bold ending.",
-      "delta_vs_prior": 1.119,
+      "context_sample": "A person describing functioning without purpose or engagement in required activities.",
+      "delta_vs_prior": 1.181,
       "first_seen": "2026-07-04",
-      "frequency_7d": 46,
+      "frequency_7d": 49,
       "objection": false,
       "phrase": "going through the motions",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/going through the motions"
       ],
-      "trending_score": 0.341
+      "trending_score": 0.346
     },
     {
       "capacity_state": "empty",
-      "context_sample": "Someone asserting that depletion from constant productivity undermines their ability to function and resist.",
-      "delta_vs_prior": 0.861,
+      "context_sample": "A person near retirement describing exhaustion, underemployment, financial strain, and inability to afford basic leisure.",
+      "delta_vs_prior": 1.048,
       "first_seen": "2026-07-03",
-      "frequency_7d": 57,
+      "frequency_7d": 65,
       "objection": false,
       "phrase": "burned out",
       "product_relevance": "reset",
       "sources": [
         "bluesky/burned out"
       ],
-      "trending_score": 0.318
+      "trending_score": 0.334
     },
     {
-      "capacity_state": "ambiguous",
-      "context_sample": "Someone describing a product return decision and skepticism that consumer action will drive industry change.",
-      "delta_vs_prior": 2.4,
-      "first_seen": "2026-07-07",
-      "frequency_7d": 3,
+      "capacity_state": "empty",
+      "context_sample": "Someone describing severe work burnout with no option to rest, experiencing every task as exhausting.",
+      "delta_vs_prior": 1.076,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 32,
       "objection": false,
-      "phrase": "sucks",
-      "product_relevance": "unclear",
+      "phrase": "running on empty",
+      "product_relevance": "reset",
       "sources": [
-        "hn/stuck"
+        "bluesky/running on empty"
       ],
-      "trending_score": 0.312
+      "trending_score": 0.289
     },
     {
-      "capacity_state": "ambiguous",
-      "context_sample": "Contrasting past Nintendo games' visual coherence with a current remake's approach.",
+      "capacity_state": "empty",
+      "context_sample": "A person describing past overplay leading to fatigue and inconsistent enjoyment of a game series.",
       "delta_vs_prior": 3.0,
-      "first_seen": "2026-07-28",
+      "first_seen": "2026-09-01",
       "frequency_7d": 3,
       "objection": false,
-      "phrase": "no art direction",
-      "product_relevance": "unclear",
+      "phrase": "got really burned out",
+      "product_relevance": "reset",
       "sources": [
-        "bluesky/no direction"
+        "bluesky/burned out"
       ],
       "trending_score": 0.288
     },
     {
       "capacity_state": "ambiguous",
-      "context_sample": "A business founder describing the overwhelm of early ownership before systems replace constant effort.",
-      "delta_vs_prior": 1.629,
+      "context_sample": "A solo founder with a completed product but lacking strategy and momentum to move forward.",
+      "delta_vs_prior": 1.781,
       "first_seen": "2026-07-04",
       "frequency_7d": 18,
       "objection": false,
@@ -215,43 +172,30 @@
       "product_relevance": "unclear",
       "sources": [
         "bluesky/feel stuck",
+        "bluesky/no direction",
         "bluesky/survival mode",
         "hn/stuck"
       ],
-      "trending_score": 0.269
-    },
-    {
-      "capacity_state": "empty",
-      "context_sample": "Someone incapacitated by flu seeking relief from physical discomfort.",
-      "delta_vs_prior": 2.571,
-      "first_seen": "2026-07-10",
-      "frequency_7d": 5,
-      "objection": false,
-      "phrase": "stuck in bed",
-      "product_relevance": "reset",
-      "sources": [
-        "bluesky/feel stuck"
-      ],
-      "trending_score": 0.261
+      "trending_score": 0.283
     },
     {
       "capacity_state": "ambiguous",
-      "context_sample": "A person expressing distress about child welfare policies and feeling helpless about systemic issues.",
-      "delta_vs_prior": 2.4,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 7,
+      "context_sample": "Someone criticizing a design approach that blends two distinct styles without coherent artistic vision.",
+      "delta_vs_prior": 2.1,
+      "first_seen": "2026-07-06",
+      "frequency_7d": 13,
       "objection": false,
-      "phrase": "feel so stuck",
+      "phrase": "no clear direction",
       "product_relevance": "unclear",
       "sources": [
-        "bluesky/feel stuck"
+        "bluesky/no direction"
       ],
-      "trending_score": 0.258
+      "trending_score": 0.267
     },
     {
       "capacity_state": "empty",
-      "context_sample": "A player lost interest in a game genre after excessive play and seeks novelty.",
-      "delta_vs_prior": 1.565,
+      "context_sample": "A person describing exhaustion and sleep loss from social media overload that led them to abandon the platform entirely.",
+      "delta_vs_prior": 1.8,
       "first_seen": "2026-07-04",
       "frequency_7d": 11,
       "objection": false,
@@ -259,42 +203,58 @@
       "product_relevance": "reset",
       "sources": [
         "bluesky/burned out",
+        "hn/burned out",
         "hn/burnout"
       ],
-      "trending_score": 0.213
+      "trending_score": 0.242
     },
     {
       "capacity_state": "ambiguous",
-      "context_sample": "Someone noting that a film has remained mentally present for years due to repeated exposure through a family member.",
-      "delta_vs_prior": 1.565,
+      "context_sample": "Educational content reframing plateaus in skill development as a normal learning stage rather than failure.",
+      "delta_vs_prior": 2.4,
       "first_seen": "2026-07-04",
-      "frequency_7d": 11,
+      "frequency_7d": 3,
       "objection": false,
-      "phrase": "stuck in my head",
+      "phrase": "feeling stuck",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/feel stuck"
+      ],
+      "trending_score": 0.234
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "A person expressing distress about child welfare policies and feeling helpless about systemic issues.",
+      "delta_vs_prior": 2.1,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 6,
+      "objection": false,
+      "phrase": "feel so stuck",
       "product_relevance": "unclear",
       "sources": [
         "bluesky/feel stuck"
       ],
-      "trending_score": 0.207
-    },
-    {
-      "capacity_state": "empty",
-      "context_sample": "A person commenting that leadership lacks capability and the group is operating in a depleted state.",
-      "delta_vs_prior": 0.758,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 23,
-      "objection": false,
-      "phrase": "running on empty",
-      "product_relevance": "reset",
-      "sources": [
-        "bluesky/running on empty"
-      ],
-      "trending_score": 0.206
+      "trending_score": 0.225
     },
     {
       "capacity_state": "ambiguous",
-      "context_sample": "A person noting that successful women face backlash for their visibility while men avoid similar consequences.",
-      "delta_vs_prior": 0.984,
+      "context_sample": "A person expressing distress after a political outcome in their newly adopted country.",
+      "delta_vs_prior": 1.714,
+      "first_seen": "2026-07-07",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "stuck between a rock and a hard place",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/feel stuck",
+        "hn/stuck"
+      ],
+      "trending_score": 0.211
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "A person describing an unstable emotional day and functioning without direction or engagement.",
+      "delta_vs_prior": 1.017,
       "first_seen": "2026-07-04",
       "frequency_7d": 19,
       "objection": false,
@@ -303,40 +263,40 @@
       "sources": [
         "bluesky/just existing"
       ],
-      "trending_score": 0.203
+      "trending_score": 0.206
+    },
+    {
+      "capacity_state": "empty",
+      "context_sample": "Someone incapacitated by flu seeking relief from physical discomfort.",
+      "delta_vs_prior": 1.875,
+      "first_seen": "2026-07-10",
+      "frequency_7d": 4,
+      "objection": false,
+      "phrase": "stuck in bed",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/feel stuck"
+      ],
+      "trending_score": 0.193
     },
     {
       "capacity_state": "flat",
-      "context_sample": "Someone exhausted by job searching in a field they no longer want to pursue.",
-      "delta_vs_prior": 2.0,
+      "context_sample": "Someone describing exhaustion from coding work motivated primarily by financial necessity.",
+      "delta_vs_prior": 1.8,
       "first_seen": "2026-07-04",
-      "frequency_7d": 3,
+      "frequency_7d": 5,
       "objection": false,
-      "phrase": "burned out on",
+      "phrase": "burned out on it",
       "product_relevance": "ignition",
       "sources": [
         "bluesky/burned out"
       ],
-      "trending_score": 0.198
-    },
-    {
-      "capacity_state": "flat",
-      "context_sample": "Someone describing functional but aimless existence without space to discover their authentic self.",
-      "delta_vs_prior": 1.5,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 10,
-      "objection": false,
-      "phrase": "just going through the motions",
-      "product_relevance": "ignition",
-      "sources": [
-        "bluesky/going through the motions"
-      ],
-      "trending_score": 0.195
+      "trending_score": 0.192
     },
     {
       "capacity_state": "ambiguous",
       "context_sample": "A comment about the permanence of firmware limitations compared to replaceable hardware.",
-      "delta_vs_prior": 1.2,
+      "delta_vs_prior": 1.286,
       "first_seen": "2026-07-04",
       "frequency_7d": 5,
       "objection": false,
@@ -346,17 +306,102 @@
         "bluesky/feel stuck",
         "hn/stuck"
       ],
-      "trending_score": 0.175
+      "trending_score": 0.185
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "Someone describing an intrusive song that interrupts their mood without clear context.",
+      "delta_vs_prior": 1.269,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 10,
+      "objection": false,
+      "phrase": "stuck in my head",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/feel stuck"
+      ],
+      "trending_score": 0.174
     },
     {
       "capacity_state": "flat",
-      "context_sample": "A person attributing their loss of interest in a specific activity to personal burnout rather than external factors.",
-      "delta_vs_prior": 1.364,
+      "context_sample": "A person functioning mechanically without engagement, aware of decline.",
+      "delta_vs_prior": 1.25,
       "first_seen": "2026-07-04",
-      "frequency_7d": 4,
+      "frequency_7d": 9,
       "objection": false,
-      "phrase": "burned out on it",
+      "phrase": "just going through the motions",
       "product_relevance": "ignition",
+      "sources": [
+        "bluesky/burned out",
+        "bluesky/going through the motions"
+      ],
+      "trending_score": 0.166
+    },
+    {
+      "capacity_state": "empty",
+      "context_sample": "A person unable to pursue meaningful activities or relationships due to financial constraints and basic survival focus.",
+      "delta_vs_prior": 0.739,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 16,
+      "objection": false,
+      "phrase": "survival mode",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/survival mode"
+      ],
+      "trending_score": 0.163
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "A person arguing that media institutions need complete dismantling due to alleged corruption coverage.",
+      "delta_vs_prior": 1.4,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 6,
+      "objection": false,
+      "phrase": "start over",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/start over"
+      ],
+      "trending_score": 0.162
+    },
+    {
+      "capacity_state": "empty",
+      "context_sample": "Farmers adopting lower-revenue crops to cope with climate instability, describing their situation as survival-focused.",
+      "delta_vs_prior": 1.385,
+      "first_seen": "2026-07-06",
+      "frequency_7d": 5,
+      "objection": false,
+      "phrase": "in survival mode",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/survival mode"
+      ],
+      "trending_score": 0.155
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "Someone expressing feeling trapped in a living situation and experiencing discrimination.",
+      "delta_vs_prior": 1.5,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "stuck here",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/feel stuck"
+      ],
+      "trending_score": 0.153
+    },
+    {
+      "capacity_state": "empty",
+      "context_sample": "A person reflecting on self-inflicted depletion through excessive accommodation of others' needs.",
+      "delta_vs_prior": 1.235,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 6,
+      "objection": false,
+      "phrase": "burned myself out",
+      "product_relevance": "reset",
       "sources": [
         "bluesky/burned out"
       ],
@@ -377,82 +422,23 @@
       "trending_score": 0.147
     },
     {
-      "capacity_state": "ambiguous",
-      "context_sample": "A person wanting to rebuild artistic skills without pressure, retaining fragments from past training.",
-      "delta_vs_prior": 1.059,
+      "capacity_state": "flat",
+      "context_sample": "Someone criticizing institutional dysfunction that creates confusion for workers and harm for clients.",
+      "delta_vs_prior": 1.0,
       "first_seen": "2026-07-04",
-      "frequency_7d": 5,
+      "frequency_7d": 8,
       "objection": false,
-      "phrase": "stuck with me",
-      "product_relevance": "unclear",
+      "phrase": "no direction",
+      "product_relevance": "ignition",
       "sources": [
-        "bluesky/feel stuck",
-        "hn/stuck"
+        "bluesky/no direction"
       ],
-      "trending_score": 0.142
-    },
-    {
-      "capacity_state": "ambiguous",
-      "context_sample": "Someone describing emotional paralysis, temporal disorientation, and hopelessness about seeking support after returning from travel.",
-      "delta_vs_prior": 1.2,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 3,
-      "objection": false,
-      "phrase": "stuck in the past",
-      "product_relevance": "unclear",
-      "sources": [
-        "bluesky/feel stuck",
-        "hn/stuck"
-      ],
-      "trending_score": 0.14
-    },
-    {
-      "capacity_state": "empty",
-      "context_sample": "A person in acute depletion describing numbness and planning to make changes.",
-      "delta_vs_prior": 1.05,
-      "first_seen": "2026-07-06",
-      "frequency_7d": 6,
-      "objection": false,
-      "phrase": "so burned out",
-      "product_relevance": "reset",
-      "sources": [
-        "bluesky/burned out"
-      ],
-      "trending_score": 0.131
-    },
-    {
-      "capacity_state": "empty",
-      "context_sample": "Someone worried about managing household tasks without becoming depleted.",
-      "delta_vs_prior": 1.071,
-      "first_seen": "2026-07-11",
-      "frequency_7d": 4,
-      "objection": false,
-      "phrase": "getting burned out",
-      "product_relevance": "reset",
-      "sources": [
-        "bluesky/burned out",
-        "hn/burned out"
-      ],
-      "trending_score": 0.13
-    },
-    {
-      "capacity_state": "empty",
-      "context_sample": "Someone describing sustained economic constraint and deliberate spending reduction to meet only essential needs.",
-      "delta_vs_prior": 1.154,
-      "first_seen": "2026-07-06",
-      "frequency_7d": 4,
-      "objection": false,
-      "phrase": "in survival mode",
-      "product_relevance": "reset",
-      "sources": [
-        "bluesky/survival mode"
-      ],
-      "trending_score": 0.128
+      "trending_score": 0.138
     },
     {
       "capacity_state": "ambiguous",
       "context_sample": "An observation that many reCaptcha users lack time or energy to switch to alternative solutions.",
-      "delta_vs_prior": 0.923,
+      "delta_vs_prior": 1.0,
       "first_seen": "2026-07-04",
       "frequency_7d": 3,
       "objection": false,
@@ -462,12 +448,12 @@
         "bluesky/feel stuck",
         "hn/stuck"
       ],
-      "trending_score": 0.124
+      "trending_score": 0.132
     },
     {
       "capacity_state": "ambiguous",
-      "context_sample": "Motivational advice suggesting perspective-shifting as a solution to feeling stalled.",
-      "delta_vs_prior": 0.61,
+      "context_sample": "A compassionate response to someone grieving while the world moves on normally around them.",
+      "delta_vs_prior": 0.632,
       "first_seen": "2026-07-04",
       "frequency_7d": 11,
       "objection": false,
@@ -476,49 +462,35 @@
       "sources": [
         "bluesky/feel stuck"
       ],
-      "trending_score": 0.121
-    },
-    {
-      "capacity_state": "flat",
-      "context_sample": "Arguing that excessive detail undermines coherent artistic vision.",
-      "delta_vs_prior": 0.828,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 7,
-      "objection": false,
-      "phrase": "no direction",
-      "product_relevance": "ignition",
-      "sources": [
-        "bluesky/no direction"
-      ],
-      "trending_score": 0.116
+      "trending_score": 0.123
     },
     {
       "capacity_state": "empty",
-      "context_sample": "Someone describing exhaustion from consuming too much low-quality content before reaching their goal.",
-      "delta_vs_prior": 0.882,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 4,
+      "context_sample": "A person in acute depletion describing numbness and planning to make changes.",
+      "delta_vs_prior": 0.857,
+      "first_seen": "2026-07-06",
+      "frequency_7d": 5,
       "objection": false,
-      "phrase": "burned myself out",
+      "phrase": "so burned out",
       "product_relevance": "reset",
       "sources": [
         "bluesky/burned out"
       ],
-      "trending_score": 0.103
+      "trending_score": 0.107
     },
     {
       "capacity_state": "empty",
-      "context_sample": "A societal observation that Australians are depleted, disconnected, and operating from a place of scarcity and insecurity.",
-      "delta_vs_prior": 0.418,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 10,
+      "context_sample": "Someone worried about managing household tasks without becoming depleted.",
+      "delta_vs_prior": 0.857,
+      "first_seen": "2026-07-11",
+      "frequency_7d": 3,
       "objection": false,
-      "phrase": "survival mode",
+      "phrase": "getting burned out",
       "product_relevance": "reset",
       "sources": [
-        "bluesky/survival mode"
+        "bluesky/burned out"
       ],
-      "trending_score": 0.098
+      "trending_score": 0.095
     },
     {
       "capacity_state": "ambiguous",
@@ -533,6 +505,20 @@
         "bluesky/burned out"
       ],
       "trending_score": 0.095
+    },
+    {
+      "capacity_state": "ambiguous",
+      "context_sample": "A person wanting to rebuild artistic skills without pressure, retaining fragments from past training.",
+      "delta_vs_prior": 0.632,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 3,
+      "objection": false,
+      "phrase": "stuck with me",
+      "product_relevance": "unclear",
+      "sources": [
+        "bluesky/feel stuck"
+      ],
+      "trending_score": 0.075
     }
   ],
   "window_days": 7
