@@ -1,8 +1,8 @@
 {
   "baseline_status": "active",
-  "generated": "2026-09-24T09:29:17Z",
+  "generated": "2026-09-24T10:31:55Z",
   "run": {
-    "items_tagged": 716,
+    "items_tagged": 24,
     "modules": {
       "appstore": "ok",
       "bluesky": "ok",
@@ -255,10 +255,10 @@
     },
     {
       "capacity_state": "flat",
-      "context_sample": "An assessment that a public figure has lost commitment and is performing without substance.",
-      "delta_vs_prior": 0.983,
+      "context_sample": "A political observer criticizing a party for performative outrage while passively enabling the policies they claim to oppose.",
+      "delta_vs_prior": 1.008,
       "first_seen": "2026-07-04",
-      "frequency_7d": 38,
+      "frequency_7d": 39,
       "objection": false,
       "phrase": "going through the motions",
       "product_relevance": "ignition",
@@ -266,7 +266,21 @@
         "bluesky/going through the motions",
         "hn/stuck"
       ],
-      "trending_score": 0.319
+      "trending_score": 0.328
+    },
+    {
+      "capacity_state": "empty",
+      "context_sample": "A healthcare worker describing how burnout and survival in difficult work environments erodes emotional capacity without workers recognizing the change.",
+      "delta_vs_prior": 0.639,
+      "first_seen": "2026-07-03",
+      "frequency_7d": 42,
+      "objection": false,
+      "phrase": "burned out",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/burned out"
+      ],
+      "trending_score": 0.297
     },
     {
       "capacity_state": "empty",
@@ -281,20 +295,6 @@
         "bluesky/burned out"
       ],
       "trending_score": 0.288
-    },
-    {
-      "capacity_state": "empty",
-      "context_sample": "A podcast episode about a bestselling author's burnout and realization that success in one area does not guarantee fulfillment.",
-      "delta_vs_prior": 0.594,
-      "first_seen": "2026-07-03",
-      "frequency_7d": 39,
-      "objection": false,
-      "phrase": "burned out",
-      "product_relevance": "reset",
-      "sources": [
-        "bluesky/burned out"
-      ],
-      "trending_score": 0.287
     },
     {
       "capacity_state": "ready",
@@ -387,6 +387,20 @@
     },
     {
       "capacity_state": "empty",
+      "context_sample": "Someone expressing frustration with positivity-focused advice while experiencing physical depletion, followed by a promotional link.",
+      "delta_vs_prior": 0.758,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 22,
+      "objection": false,
+      "phrase": "running on empty",
+      "product_relevance": "reset",
+      "sources": [
+        "bluesky/running on empty"
+      ],
+      "trending_score": 0.2
+    },
+    {
+      "capacity_state": "empty",
       "context_sample": "Someone expressing depletion and acknowledging their own negative mood.",
       "delta_vs_prior": 2.0,
       "first_seen": "2026-09-01",
@@ -398,20 +412,6 @@
         "bluesky/burned out"
       ],
       "trending_score": 0.198
-    },
-    {
-      "capacity_state": "empty",
-      "context_sample": "An article distinguishing burnout from weakness and validating the experience of carrying too much.",
-      "delta_vs_prior": 0.725,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 21,
-      "objection": false,
-      "phrase": "running on empty",
-      "product_relevance": "reset",
-      "sources": [
-        "bluesky/running on empty"
-      ],
-      "trending_score": 0.191
     },
     {
       "capacity_state": "ambiguous",
@@ -542,6 +542,20 @@
       "trending_score": 0.138
     },
     {
+      "capacity_state": "flat",
+      "context_sample": "A political critique of a leader's lack of vision, follow-through, and meaningful accomplishment.",
+      "delta_vs_prior": 0.938,
+      "first_seen": "2026-07-04",
+      "frequency_7d": 9,
+      "objection": false,
+      "phrase": "no direction",
+      "product_relevance": "ignition",
+      "sources": [
+        "bluesky/no direction"
+      ],
+      "trending_score": 0.138
+    },
+    {
       "capacity_state": "empty",
       "context_sample": "An artist describing depletion that blocks creative output despite clear mental images, trapped in unfinished work.",
       "delta_vs_prior": 1.333,
@@ -582,20 +596,6 @@
         "bluesky/feel stuck"
       ],
       "trending_score": 0.125
-    },
-    {
-      "capacity_state": "flat",
-      "context_sample": "A viewer expressing disappointment in repetitive, uninspired writing across a film franchise despite large budgets.",
-      "delta_vs_prior": 0.844,
-      "first_seen": "2026-07-04",
-      "frequency_7d": 8,
-      "objection": false,
-      "phrase": "no direction",
-      "product_relevance": "ignition",
-      "sources": [
-        "bluesky/no direction"
-      ],
-      "trending_score": 0.124
     },
     {
       "capacity_state": "empty",
